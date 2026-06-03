@@ -12,6 +12,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 import pandas as pd
+import streamlit.components.v1 as components
+
+# Verificación de Google
+st.markdown("""
+    <meta name="google-site-verification" content="TU_CODIGO_COPIADO_AQUI" />
+""", unsafe_allow_html=True)
 
 # --- CORRECCIÓN CRÍTICA: Inicializar el estado ANTES de usarlo ---
 if 'M_carga' not in st.session_state:
